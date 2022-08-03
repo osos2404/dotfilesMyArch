@@ -1,0 +1,72 @@
+# rxyhn's aesthetic alacritty
+# configuration for alacritty, the GPU enhanced terminal emulator.
+import:
+  - .config/alacritty/themes/night.yml
+
+env:
+  TERM: xterm-256color
+
+window:
+  dynamic_padding: true
+
+  padding:
+    x: 25
+    y: 25
+
+font:
+  normal:
+    family: Sarasa Mono K
+    style: Regular
+
+  bold:
+    family: Sarasa Mono K
+    style: Bold
+
+  italic:
+    family: Sarasa Mono K
+    style: Italic
+
+  bold_italic:
+    family: Sarasa Mono K
+    style: Bold Italic
+
+  size: 11
+
+  offset:
+    x: 0
+    y: 0
+
+# aesthetic night colors
+# colors:
+#   primary:
+#     background: '0x061115'
+#     foreground: '0xD9D7D6'
+
+#   cursor:
+#     text:   '0x061115'
+#     cursor: '0xD9D7D6'
+
+#   normal:
+#     black:   '0x1C252C'
+#     red:     '0xDF5B61'
+#     green:   '0x78B892'
+#     yellow:  '0xDE8F78'
+#     blue:    '0x6791C9'
+#     magenta: '0xBC83E3'
+#     cyan:    '0x67AFC1'
+#     white:   '0xD9D7D6'
+
+#   bright:
+#     black:   '0x1C252C'
+#     red:     '0xDF5B61'
+#     green:   '0x78B892'
+#     yellow:  '0xDE8F78'
+#     blue:    '0x6791C9'
+#     magenta: '0xBC83E3'
+#     cyan:    '0x67AFC1'
+#     white:   '0xD9D7D6'
+
+cursor:
+  style: Underline
+
+live_config_reload: true
